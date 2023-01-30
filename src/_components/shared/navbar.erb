@@ -1,11 +1,12 @@
-<header>
-  <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
-</header>
-
-<nav>
-  <ul>
-    <li><a href="<%= relative_url '/' %>">Home</a></li>
-    <li><a href="<%= relative_url '/about' %>">About</a></li>
-    <li><a href="<%= relative_url '/posts' %>">Posts</a></li>
-  </ul>
-</nav>
+<section>
+  <header class="max-w-5xl mx-auto px-4 py-4 flex justify-between">
+    <a href="<%= relative_url '/' %>">
+      <img src="<%= relative_url '/images/mugenrubylogo.png' %>" alt="Logo" class="h-6" />
+      <h1 class="font-bold tracking-wider text-xl uppercase">Mugen Ruby</h1>
+    </a>
+    <nav class="col-span-3 md:col-span-9 flex items-center justify-end space-x-4 uppercase font-medium tracking-wide">
+      <a href="<%= relative_url '/about' %>">About</a>
+    </nav>
+  </header>
+  <aside class="h-12"></div>
+</section>
