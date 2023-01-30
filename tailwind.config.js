@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         "sans": ["Roboto", "sans-serif"],
+        "serif": ["Roboto Slab", "serif"],
+        "mono": ["Roboto Mono", "monospace"],
       }
     },
   },
