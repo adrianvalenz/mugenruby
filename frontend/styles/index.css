@@ -8,11 +8,34 @@
 @tailwind components;
 @tailwind utilities;
 
-p {
-  @apply mb-4;
-}
 
-code,
-pre {
-  @apply font-mono;
+@layer base {
+   ::selection {
+    @apply bg-red-500 text-red-50;
+  }
+
+  ::-moz-selection {
+    @apply bg-red-500 text-red-50;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  h2 {
+    @apply text-xl font-bold mb-4 mt-8;
+  }
+
+  ol {
+    @apply list-decimal pl-4 mb-8;
+  }
+
+  code, pre {
+    @apply font-mono text-sm ;
+  }
+
+  pre {
+    @apply leading-normal overflow-x-scroll whitespace-pre;
+  }
+
 }

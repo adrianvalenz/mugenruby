@@ -1,3 +1,9 @@
+PATH
+  remote: /Users/adrianvalenzuela/sites/oss/plugins/bridgetown/bridgetown_create_post
+  specs:
+    bridgetown_create_post (0.1.0)
+      bridgetown (>= 1.2.0, < 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -115,6 +121,7 @@ PLATFORMS
 
 DEPENDENCIES
   bridgetown (~> 1.2.0)
+  bridgetown_create_post!
   puma (~> 5.6)
 
 BUNDLED WITH

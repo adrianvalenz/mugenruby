@@ -11,7 +11,8 @@
 
 pre.highlight {
   padding: 16px;
-  background-color: #F6F8FA;
+  background-color: theme(colors.slate.50);
+  color: theme(colors.slate.700);
 }
 
 .highlight .hll { background-color: #ffffcc }
