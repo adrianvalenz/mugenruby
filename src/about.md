@@ -9,3 +9,5 @@ Discover the boundless potential of "Mugen no rubii" - Japanese for "Infinite Ru
 At Mugen Ruby, we aim to showcase the amazing things that can be achieved with Ruby and Rails through blogging and documentation. Our mission is to share our knowledge, both new and old, and provide helpful tips to others in the Ruby community. Join us as we explore the endless possibilities of Ruby together.
 
 This blog is maintained by [Adrian Valenzuela](https://adrianvalenz.com). Feel free to <a href="mailto:adriavalenz.web@gmail.com?subject=<your subject> : from MugenRuby.com" onclick="window.fathom.trackGoal('UT9FOLPZ', 0);" class="text-red-500 font-medium">e-mail</a> me if you have any questions, comments, requests, or just want to say hi!
+
+Ok! Now for [some reading](https://mugenruby.com)
