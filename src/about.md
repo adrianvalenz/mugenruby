@@ -10,4 +10,4 @@ At Mugen Ruby, we aim to showcase the amazing things that can be achieved with R
 
 This blog is maintained by <a href="https://adrianvalenz.com" target="_blank" class="text-red-500 font-medium">Adrian Valenzuela</a>. Feel free to <a href="mailto:adriavalenz.web@gmail.com?subject=<your subject> : from MugenRuby.com" onclick="window.fathom.trackGoal('UT9FOLPZ', 0);" class="text-red-500 font-medium">e-mail</a> me if you have any questions, comments, requests, or just want to say hi!
 
-Ok! Now for <a href="https://mugenruby.com">some reading</a>
+Ok! Now for <a href="https://mugenruby.com" class="text-red-500 font-medium">some reading</a>
