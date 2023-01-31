@@ -32,4 +32,4 @@ gem "bridgetown", "~> 1.2.0"
 # (you can optionally limit this to the "development" group)
 gem "puma", "~> 5.6"
 
-gem "bridgetown_create_post", path: "/Users/adrianvalenzuela/sites/oss/plugins/bridgetown/bridgetown_create_post"
+# gem "bridgetown_create_post", path: "/Users/adrianvalenzuela/sites/oss/plugins/bridgetown/bridgetown_create_post"
