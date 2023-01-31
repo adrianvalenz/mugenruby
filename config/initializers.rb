@@ -16,7 +16,7 @@ Bridgetown.configure do |config|
   #
   # init :dotenv
   #
-  init :bridgetown_create_post
+  # init :bridgetown_create_post
   # Uncomment to use Bridgetown SSR (aka dynamic rendering of content via Roda):
   #
   # init :ssr
