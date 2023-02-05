@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "What's the secret about Rails credentials? Let's .dig in"
-date: 2023-02-02 23:00:23 -0800
+date: 2024-02-02 23:00:23 -0800
 categories: rails
-published: true
 ---
 
 Gone are the not so ENVious days of storing your secrets in `.env` files, sharing those files with teammates via cumbersome password managers, and dealing with keeping everyone's environment variables up to date across multiple dev machines.
