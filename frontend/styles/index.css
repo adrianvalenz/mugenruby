@@ -38,11 +38,15 @@
   }
 
   code, pre {
-    @apply font-mono text-sm ;
+    @apply font-mono text-sm;
   }
 
   pre {
     @apply leading-normal overflow-x-scroll whitespace-pre;
   }
 
+}
+
+code.highlighter-rouge {
+  @apply text-red-500;
 }
