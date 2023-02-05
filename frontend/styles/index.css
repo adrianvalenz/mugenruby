@@ -8,7 +8,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
    ::selection {
     @apply bg-red-500 text-red-50;
@@ -16,6 +15,14 @@
 
   ::-moz-selection {
     @apply bg-red-500 text-red-50;
+  }
+
+  ul {
+    @apply list-disc pl-4;
+  }
+
+  li {
+    @apply mb-2;
   }
 
   p {
