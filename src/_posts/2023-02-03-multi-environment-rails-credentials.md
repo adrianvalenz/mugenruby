@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What's the secret about Rails credentials? Let's .dig in"
-date: 2022-02-02 23:00:23 -0800
+date: 2023-02-02 23:00:23 -0800
 categories: rails
 template_engine: liquid
 ---
