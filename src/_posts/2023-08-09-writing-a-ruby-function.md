@@ -74,7 +74,7 @@ def reverse_text(string)
 end
 ```
 
-Raising in error in a program has advantages in a program over just printing out that we needed to enter a 
+Raising an error in a program has advantages in a program over just printing out that we needed to enter a 
 string or whatever message we want to communicate to the user. Some advantages to raising errors are:
 
 - **Halts the program:** Printing out a statement won't interrupt the flow of the app, so if something goes
@@ -86,7 +86,7 @@ about what caused it.
 
 - **Keep an eye on it:** Ideally you have error tracking implemented with your app, so when the program fails these
 unhandled exceptions get logged. This allows you to track and monitor them to ensure they aren't happening again
-once you address them, very important in production systems.
+once you address them. This is very important in production systems.
 
 We can get even more clear about the error. Here is another refactor:
 
@@ -140,7 +140,6 @@ puts reverse_text(greeting)
 ```
 
 This is looking pretty good. The method not only follows the first SOLID principle of Single Responsibility, 
-but looks for exceptions and returns the value instead of limiting it to printing out the value with `puts`. Don't
-forget to back your methods up with tests!
+but looks for exceptions and returns the value instead of limiting it to printing out the value with `puts`. Remember to back your methods up with tests!
 
 Thank you for reading!
