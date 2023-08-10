@@ -74,8 +74,8 @@ def reverse_text(string)
 end
 ```
 
-Raising an error in a program has advantages in a program over just printing out that we needed to enter a 
-string or whatever message we want to communicate to the user. Some advantages to raising errors are:
+Raising an error in a program has many advantages over just printing out a message.
+Some advantages to raising errors are:
 
 - **Halts the program:** Printing out a statement won't interrupt the flow of the app, so if something goes
 wrong, we want to know about it.
