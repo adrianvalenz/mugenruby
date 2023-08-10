@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Database Design Mistakes To Avoid"
-date: 2023-07-09 13:00:23 -0800
+date: 2023-07-09 13:00:23
 categories: database
 template_engine: liquid
 published: false

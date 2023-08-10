@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Your First Post on Bridgetown"
-date:   2023-01-28 23:00:23 -0800
+date:   2023-01-28 23:00:23
 categories: rails
 published: false
 ---
