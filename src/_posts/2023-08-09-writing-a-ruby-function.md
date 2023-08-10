@@ -4,7 +4,6 @@ title: "Creating a Ruby Method"
 date: 2023-08-09
 categories: ruby
 template_engine: liquid
-published: false
 ---
 
 We are going to create a method that reverses a string...ready? Let's go!
