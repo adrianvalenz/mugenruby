@@ -26,6 +26,7 @@ name it to indicate it's function.
 
 ```ruby
 # First refactor
+
 def reverse_text(string)
   puts string.reverse
 end
@@ -49,6 +50,7 @@ that checks it is a string!
 
 ```ruby
 # Second refactor
+
 def reverse_text(string)
   if string.is_a? String
     puts string.reverse
@@ -65,6 +67,7 @@ make this more clear?
 
 ```ruby
 # Third refactor
+
 def reverse_text(string)
   if string.is_a? String
     puts string.reverse
@@ -92,6 +95,7 @@ We can get even more clear about the error. Here is another refactor:
 
 ```ruby
 # Fourth refactor
+
 def reverse_text(string)
   if string.is_a? String
     puts string.reverse
@@ -110,6 +114,7 @@ method more Rubyish!
 
 ```ruby
 # Fifth refactor
+
 def reverse_text(string)
   raise ArgumentError, "Expected a string, but recieved #{string.class.name}." unless string.is_a?(String)
 
