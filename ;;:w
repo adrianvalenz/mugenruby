@@ -1,6 +1,0 @@
-
-<section class="max-w-3xl mx-auto px-4 py-4">
-  <footer>
-    <span class="text-sm">&copy; <%= Date.today.year %> Mugen Ruby</span> <img src="<%= relative_url '/images/ruby_logo.svg' %>" alt="Ruby logo" /> Proudly built with <a href="https://bridgetownrb.com" class="uppercase font-bold text-sm">Bridgetown</a>
-  </footer>
-</section>
