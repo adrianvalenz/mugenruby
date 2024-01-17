@@ -6,3 +6,4 @@ categories: rails
 published: false
 ---
 
+hi
