@@ -7,18 +7,18 @@ published: true
 template_engine: liquid
 ---
 
-Backblaze B2 is a great alternative to setting up cloud storage or AWS overwhelming console.
+Backblaze B2 is a great alternative to setting up cloud storage over AWS and its overwhelming console.
 In this write up I go over some simple steps to get Backblaze working on your Rails 7 app within minutes.
 
 
 ## Overview of Steps:
-1. Create Backblaze account and create bucket named after your app and enviroment
+1. Create Backblaze account and create bucket named after your app and environment
 2. Create application keys for bucket by filling out form
 3. Save the keys into Rails credentials
 4. Install `aws-sdk-s3` gem
 5. Update `config/storage.yml`
 6. Create an initializer file for AWS
-7. Update `config/environents/production.rb`
+7. Update `config/environments/production.rb`
 
 
 ## The steps
