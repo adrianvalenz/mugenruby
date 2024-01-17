@@ -27,7 +27,7 @@ After you have set up your Backblaze account, create a bucket and name
 it "appname-production" after your app or something that makes sense for your project.
 
 Then in the left column you'll see a link "Application Keys" and that is
-where you will click to create a set of keys specifice to your bucket.
+where you will click to create a set of keys specific to your bucket.
 
 Find the "Add a New Application Key" button and fill out these fields:
 
