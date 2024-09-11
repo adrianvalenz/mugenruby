@@ -3,7 +3,7 @@ layout: post
 title: "Clear input field in Rails search form"
 date: 2024-09-04 01:01:01 -0700
 categories: rails, stimulus
-published: false
+published: true
 template_engine: liquid
 ---
 
