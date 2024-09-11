@@ -57,7 +57,11 @@ export default class extends Controller {
   <%= form_with url: listings_path, method: :get, local: true do %>
     <div class="relative" data-controller="clear-form">
       <%= text_field_tag :query, params[:query], data: { clear_form_target: "input", action: "input->clear-form#inputChanged" }, id: "searchInput", placeholder: "Search listings...", class: "border p-1 rounded-sm pr-6 w-full" %>
-      <span data-clear-form-target="clearButton" data-action="click->clear-form#clearInput" class="cursor-pointer absolute top-1/2 right-2 -translate-y-1/2 hidden">&times;</span>
+      <%= button_tag type: "button", data: { clear_form_target: "clearButton", action: "click->clear-form#clearInput" }, class: "cursor-pointer absolute top-1/2 right-2 -translate-y-1/2 hidden" do %>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+        </svg>
+      <% end %>
     </div>
     <%= submit_tag "Search", class: "bg-stone-400 text-stone-100 p-1 rounded-sm" %>
   <% end %>
