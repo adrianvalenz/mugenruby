@@ -6,7 +6,7 @@ layout: home
 
 <ul>
   <% collections.posts.resources.each do |post| %>
-    <li class="flex items-center space-x-4 border-b py-2">
+    <li class="flex items-center space-x-0 border-b py-2">
       <span class="hidden uppercase font-bold text-xs text-slate-400"><%= post.data.date.strftime("%d %b %Y") %></span>
       <a href="<%= post.relative_url %>" class="font-serif font-normal tracking-wide text-lg hover:text-slate-500"><%= post.data.title %></a>
     </li>
