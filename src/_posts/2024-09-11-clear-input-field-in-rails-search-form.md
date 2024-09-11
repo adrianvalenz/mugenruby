@@ -105,3 +105,5 @@ appears and when you click it will clear the form by setting the value to `""`.
 
 The `ListingsController` returns the searched query in the `index` action or all listings if
 there isn't a term in the parameters. The listings are rendered by the following HTML/ERB code.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dwFFd-pVtnw?si=YxfHTyjY8-QaKLOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
